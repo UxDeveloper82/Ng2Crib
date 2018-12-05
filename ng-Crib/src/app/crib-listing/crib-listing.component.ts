@@ -1,5 +1,6 @@
+import { CribsService } from './../_services/cribs.service';
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { Crib } from '../_models/crib';
 
 @Component({
   selector: 'app-crib-listing',
@@ -7,22 +8,21 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./crib-listing.component.css']
 })
 export class CribListingComponent implements OnInit {
-  cribs: any;
+  cribs: Crib[];
 
-  constructor(private http: HttpClient) { }
+  constructor(private cribService: CribsService) { }
 
   ngOnInit() {
     this.getAll();
+
   }
 
   getAll() {
-    this.http.get('http://localhost:5000/api/Cribs')
-    .subscribe(response => {
-      this.cribs = response;
+    this.cribService.getAllCribs().subscribe((cribs: Crib[]) => {
+    this.cribs = cribs;
     }, error => {
       console.log(error);
     });
+
   }
-
 }
-
