@@ -1,0 +1,14 @@
+C:\Users\Martin\Desktop\blogApp\blog.api\bin\Debug\netcoreapp2.1\blog.api.deps.json
+C:\Users\Martin\Desktop\blogApp\blog.api\bin\Debug\netcoreapp2.1\blog.api.runtimeconfig.json
+C:\Users\Martin\Desktop\blogApp\blog.api\bin\Debug\netcoreapp2.1\blog.api.runtimeconfig.dev.json
+C:\Users\Martin\Desktop\blogApp\blog.api\bin\Debug\netcoreapp2.1\blog.api.dll
+C:\Users\Martin\Desktop\blogApp\blog.api\bin\Debug\netcoreapp2.1\blog.api.pdb
+C:\Users\Martin\Desktop\blogApp\blog.api\obj\Debug\netcoreapp2.1\blog.api.csprojAssemblyReference.cache
+C:\Users\Martin\Desktop\blogApp\blog.api\obj\Debug\netcoreapp2.1\blog.api.csproj.CoreCompileInputs.cache
+C:\Users\Martin\Desktop\blogApp\blog.api\obj\Debug\netcoreapp2.1\blog.api.RazorAssemblyInfo.cache
+C:\Users\Martin\Desktop\blogApp\blog.api\obj\Debug\netcoreapp2.1\blog.api.RazorAssemblyInfo.cs
+C:\Users\Martin\Desktop\blogApp\blog.api\obj\Debug\netcoreapp2.1\blog.api.AssemblyInfoInputs.cache
+C:\Users\Martin\Desktop\blogApp\blog.api\obj\Debug\netcoreapp2.1\blog.api.AssemblyInfo.cs
+C:\Users\Martin\Desktop\blogApp\blog.api\obj\Debug\netcoreapp2.1\blog.api.RazorTargetAssemblyInfo.cache
+C:\Users\Martin\Desktop\blogApp\blog.api\obj\Debug\netcoreapp2.1\blog.api.dll
+C:\Users\Martin\Desktop\blogApp\blog.api\obj\Debug\netcoreapp2.1\blog.api.pdb
