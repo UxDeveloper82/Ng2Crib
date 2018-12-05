@@ -8,5 +8,7 @@ namespace blog.api.Data
         public DataContext(DbContextOptions<DataContext> options) : base (options) { }
 
         public DbSet<Value> Values { get; set; }
+
+        public DbSet<Crib> Cribs { get; set; }
     }
 }

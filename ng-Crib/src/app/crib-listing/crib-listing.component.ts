@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./crib-listing.component.css']
 })
 export class CribListingComponent implements OnInit {
-  values: any;
+  cribs: any;
 
   constructor(private http: HttpClient) { }
 
@@ -16,9 +16,9 @@ export class CribListingComponent implements OnInit {
   }
 
   getAll() {
-    this.http.get('http://localhost:5000/api/values')
+    this.http.get('http://localhost:5000/api/Cribs')
     .subscribe(response => {
-      this.values = response;
+      this.cribs = response;
     }, error => {
       console.log(error);
     });
