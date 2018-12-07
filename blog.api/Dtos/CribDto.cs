@@ -1,8 +1,8 @@
-namespace blog.api.Models
+namespace blog.api.Dtos
 {
-    public class Crib
+    public class CribDto
     {
-        public int Id { get; set; }
+         public int Id { get; set; }
 
         public string Type { get; set; }
 
@@ -10,7 +10,7 @@ namespace blog.api.Models
 
         public string Address { get; set; }
 
-        public string Description { get; set; }
+        public string Desription { get; set; }
 
         public int Bedrooms { get; set; }
 
