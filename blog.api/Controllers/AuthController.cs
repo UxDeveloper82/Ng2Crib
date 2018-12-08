@@ -10,7 +10,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 
-namespace blog.api.Controllers {
+namespace blog.api.Controllers 
+{
     [Route ("api/[controller]")]
     [ApiController]
     public class AuthController : ControllerBase {
